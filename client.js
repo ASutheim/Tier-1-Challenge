@@ -81,5 +81,13 @@ console.log(`Test of myScore variable, should say 30:`, myScore);
 
 // 8. Check whether or not your score is higher than the highScore.
 // 8-1 If your score is higher, change highScore to the new high score.
+if (myScore > highScore) {
+  highScore = myScore;
+}
+
+console.log(
+  `Test of if statement, new highScore value should be 30:`,
+  highScore
+);
 
 // DONE!
